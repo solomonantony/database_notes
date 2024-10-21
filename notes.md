@@ -12,6 +12,13 @@
 - Included as part of standard Python distribution
 - Requires no setup or special process to run
 - A SQLite database is stored in one file
+# Creating an SQLite database
+- https://www.sqlite.org/download.html
+- Create your own database using the sqlite3 tool
+  - https://sqlitebrowser.org/
+  - https://sqlitestudio.pl/
+- Use a Python program to create a SQLite database
+- Copy a SQLite database file that has already been created
 # Overview of working with Python and SQL database
 - Python has a standard interface for working with relational database
 - Python can be used in combination with SQL
@@ -25,15 +32,12 @@
 -- sales: country, year, sales
 - You can prototype with SQLite, then migrate to another SQL database type
 - Alternatives for getting started with a SQLite database:
-Create your own database using the sqlite3 tool
-Use a Python program to create a SQLite database
-Copy a SQLite database file that has already been created
 # Steps used in database interaction
-Import the package for working with the database
-Establish a Connection between your program and the database
-The Connection variable is a handshake between program and database
-Similar in concept to a file variable returned from an open()
-Get a Cursor variable
-The Cursor lets you submit requests, access results
-Use the Cursor variable to submit a request
-Use the Cursor variable to access and process the results
+- Import the package for working with the database
+- Establish a Connection between your program and the database
+- The Connection variable is a handshake between program and database
+- Similar in concept to a file variable returned from an open()
+- Get a Cursor variable
+- The Cursor lets you submit requests, access results
+- Use the Cursor variable to submit a request
+- Use the Cursor variable to access and process the results
