@@ -41,3 +41,7 @@
 - The Cursor lets you submit requests, access results
 - Use the Cursor variable to submit a request
 - Use the Cursor variable to access and process the results
+# bulk import
+- You can create a series of insert statements and run each of them
+- Alternatively, if the data is in a list of tuples use the cursor's executemany() method
+

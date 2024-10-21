@@ -9,6 +9,5 @@ query_statement = """
     where country = ? and year = ?
     """
 values = ('Japan', 2017)
-country_record = my_cursor.execute(query_statement, values).fetchone()
-print(country_record)
+#use the cursor's fetchone() method to verify the result
 
