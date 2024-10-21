@@ -9,5 +9,6 @@ query_statement = """
     where country = ? and year = ?
     """
 values = ('Japan', 2017)
-#use the cursor's fetchone() method to verify the result
+#use the cursor's fetchone() method to verify the result <=== TO DO
+
 

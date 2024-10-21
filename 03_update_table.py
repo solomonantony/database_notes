@@ -19,3 +19,6 @@ except sqlite3.Error as e:
     print(e)
 else:
     print('Update completed')
+
+#does this code accept invalid data for updating?  <=== TO DO
+

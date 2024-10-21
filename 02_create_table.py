@@ -27,4 +27,4 @@ except sqlite3.Error as e:
     print(e)
 else:
         print('added new_country')
-
+# Does adding a record with a missing column create an error?  Find out <=== TO DO

@@ -18,3 +18,4 @@ except sqlite3.Error as e:
     print(e)
 else:
     print('Delete completed')
+# Does not running commit make an change?  Find out <=== TO DO

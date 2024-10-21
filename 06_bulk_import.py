@@ -18,5 +18,6 @@ data = [(1, 'Apple', 50),
 # Perform bulk insert
 my_cursor.executemany('INSERT INTO inventory VALUES (?,?,?)', data)
 connection.commit()
-#write code to verify the data has been stored
+#write code to verify the data has been stored <== TO DO
+
 
