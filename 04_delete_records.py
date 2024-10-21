@@ -11,7 +11,7 @@ delete_sql_statement = """
     year = ?
     """
 try:
-    values = ('United States', 2017)
+    values = ('Canada', 2019)
     my_cursor.execute(delete_sql_statement, values )
     connection.commit()
 except sqlite3.Error as e:
@@ -19,3 +19,5 @@ except sqlite3.Error as e:
 else:
     print('Delete completed')
 # Does not running commit make an change?  Find out <=== TO DO
+#No, changes anot made permanaent if there is no commit
+    

@@ -12,7 +12,7 @@ update_sql_statement = """
     year = ?
     """
 try:
-    values = (200000, 'United States', 2017)
+    values = (-200, 'United States', 2018)
     my_cursor.execute(update_sql_statement, values )
     connection.commit()
 except sqlite3.Error as e:
@@ -21,4 +21,5 @@ else:
     print('Update completed')
 
 #does this code accept invalid data for updating?  <=== TO DO
-
+#yes, it accepted negative value for sales
+    

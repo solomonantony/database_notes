@@ -20,7 +20,7 @@ insert_sql_statement = """
     values(?,?)
 """
 try: 
-    new_country = ('Japan', 'Asia')
+    new_country = ('Japan' )
     cursor.execute(insert_sql_statement, new_country)
     connection.commit()
 except sqlite3.Error as e:
@@ -28,3 +28,5 @@ except sqlite3.Error as e:
 else:
         print('added new_country')
 # Does adding a record with a missing column create an error?  Find out <=== TO DO
+# yes, it creates an error
+        
