@@ -13,6 +13,8 @@
 - Requires no setup or special process to run
 - A SQLite database is stored in one file
 # Creating an SQLite database
+- You can prototype with SQLite, then migrate to another SQL database type
+- Alternatives for getting started with a SQLite database:
 - https://www.sqlite.org/download.html
 - Create your own database using the sqlite3 tool
   - https://sqlitebrowser.org/
@@ -30,8 +32,6 @@
 - The database has two tables:
 -- countries: country, continent
 -- sales: country, year, sales
-- You can prototype with SQLite, then migrate to another SQL database type
-- Alternatives for getting started with a SQLite database:
 # Steps used in database interaction
 - Import the package for working with the database
 - Establish a Connection between your program and the database
